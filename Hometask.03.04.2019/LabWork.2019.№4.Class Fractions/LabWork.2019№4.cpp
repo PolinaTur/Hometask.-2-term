@@ -6,7 +6,7 @@ typedef bool(*Predicate)(int);
 
 Fractions* AllocateMemory(int);
 Fractions FindFraction(Fractions*, int, Predicate, Predicate);
-void setArrayOfFractions(Fractions*, int);
+void SetArrayOfFractions(Fractions*, int);
 bool IsDenominatorEven(int);
 bool IsNumeratorpositive(int);
 void Display(Fractions*, int);
@@ -79,7 +79,7 @@ Fractions FindFraction(Fractions* array, int n, Predicate predicateNumerator, Pr
 	}
 }
 
-void setArrayOfFractions(Fractions* array, int n)
+void SetArrayOfFractions(Fractions* array, int n)
 {
 	int m, k;
 
