@@ -33,9 +33,9 @@ public:
 	double getQuotientOfFractiobs(Fractions);
 #pragma endregion 
 
-	void DisplayFraction();
+	void displayFraction();
 
-	bool IsProperFraction() const;
+	bool isProperFraction() const;
 
 private:
 	int numerator, first;
