@@ -1,6 +1,5 @@
 #include "Triangle.h"
 
-
 Triangle::Triangle(double x, double y, double z)
 {
 	setTriangle(x, y, z);
@@ -15,7 +14,6 @@ Triangle::~Triangle()
 bool Triangle::isTriangleValid(double x, double y, double z)
 {
 	return !(x + y <= z || x + z <= y || z + y <= x);
-
 }
 
 #pragma region Set
