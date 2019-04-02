@@ -93,7 +93,7 @@ int Triangle::compareTo(Triangle other)
 	return (getPerimeter() < other.getPerimeter()) ? -1 : 1;
 }
 
-void Triangle::Display() const
+void Triangle::display() const
 {
 	cout << "<" << a << "," << b << "," << c << ">" << endl;
 }
