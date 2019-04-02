@@ -39,7 +39,7 @@ double getPerimeter() const;
 
 int compareTo(Triangle);
 
-void Display() const;
+void display() const;
 
 double getArea() const;
 
