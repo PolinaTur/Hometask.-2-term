@@ -63,12 +63,12 @@ double Fractions::getQuotientOfFractiobs(Fractions other)
 }
 #pragma endregion
 
-void Fractions::DisplayFraction()
+void Fractions::displayFraction()
 {
 	cout << getNumerator() << "/" << getDenominator() << ",";
 }
 
-bool Fractions::IsProperFraction() const
+bool Fractions::isProperFraction() const
 {
 	return numerator < first ? true : false;
 }
