@@ -10,3 +10,7 @@
 [LabWork.2019.№3](https://github.com/PolinaTur/Hometask.-2-term/tree/master/Hometask.27.03.2019)
 
 [LabWork.2019.№4](https://github.com/PolinaTur/Hometask.-2-term/tree/master/Hometask.03.04.2019)
+
+[ControlWork.03.04.2019](https://github.com/PolinaTur/Hometask.-2-term/tree/master/ControlWork.03.04.2019)
+
+[LabWork.2019.№5](https://github.com/PolinaTur/Hometask.-2-term/tree/master/LabWork.2019.%E2%84%965)
