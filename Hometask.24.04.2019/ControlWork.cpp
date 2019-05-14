@@ -2,7 +2,6 @@
 #include <iostream>
 #include <string>
 #include <fstream>
-#include <iostream>
 
 typedef char*(*Key)(int);
 typedef char*(*Rule)(char*, Key, int);
@@ -24,7 +23,7 @@ using namespace std;
 
 int main()
 {
-	const char* fileName = "C:\\Users\\Polina\\Desktop\\проекты\\2 семестр\\24.04.2019\\Project1\\test.txt";
+	const char* fileName = "C:\\Users\\Polina\\Desktop\\ГЇГ°Г®ГҐГЄГІГ»\\2 Г±ГҐГ¬ГҐГ±ГІГ°\\24.04.2019\\Project1\\test.txt";
 	char* string = AllocateMemoryChar(N);
 
 	cout << "Please enter string" << endl;
