@@ -1,0 +1,5 @@
+Source string:
+hello my dear friend
+
+Encoded string!
+hello [13][02] dear friend
