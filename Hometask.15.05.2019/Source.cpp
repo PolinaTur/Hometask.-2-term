@@ -487,7 +487,6 @@ void RemoveFromFile(char* fileName)
 
 	while (streamInOut.read((char*)&book, bufSize))
 	{
-
 		streamInOut.seekp(-2 * bufSize, ios::cur);
 		streamInOut.write((char*)&book, bufSize);
 		streamInOut.seekp(bufSize, ios::cur);
